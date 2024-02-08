@@ -29,6 +29,7 @@ pin to an older version of Requests (<2.28).
 
 
 class PyTest(TestCommand):
+    print("hello")
     user_options = [("pytest-args=", "a", "Arguments to pass into py.test")]
 
     def initialize_options(self):
